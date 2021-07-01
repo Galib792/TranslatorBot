@@ -19,19 +19,21 @@ FayasNoushad = Client(
 START_TEXT = """
 Hello {}, I am a google translator telegram bot.
 
-Made by @FayasNoushad
+Made by @Muhammedgalib
+Support Channel @Tips_Tik
 """
 HELP_TEXT = """
 - Just send a text with language code
 - And select a language for translating
 
-Made by @FayasNoushad
+Made by @Muhammedgalib
+Support Channel @Tips_Tik
 """
 ABOUT_TEXT = """
 - **Bot :** `Translator Bot V2`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Translator-Bot-V2)
+- **Creator :** [Fayas](https://telegram.me/Muhammedgalib)
+- **Channel :** [Fayas Noushad](https://telegram.me/Tips_Tik)
+- **Source :** [Click here](https://github.com/eo792/TranslatorBot)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
@@ -52,8 +54,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/Tips_Tik'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/Muhammedgalib')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
@@ -67,7 +69,7 @@ CLOSE_BUTTON = InlineKeyboardMarkup(
     )
 TRANSLATE_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/Tips_Tik')
         ]]
     )
 LANGUAGE_BUTTONS = InlineKeyboardMarkup(
@@ -129,7 +131,7 @@ async def cb_data(bot, update):
             translate_text = f"**Translated to {language}**"
             translate_text += f"\n\n{translate.text}"
             if len(translate_text) < 4096:
-                translate_text += "\n\nMade by @FayasNoushad"
+                translate_text += "\n\nMade by @Muhammedgalib"
                 await message.edit_text(
                     text=translate_text,
                     disable_web_page_preview=True,
@@ -140,13 +142,13 @@ async def cb_data(bot, update):
                     translate_file.name = language + ".txt"
                     await update.reply_document(
                         document=translate_file,
-                        caption="Made by @FayasNoushad",
+                        caption="Made by @Muhammedgalib",
                         reply_markup=TRANSLATE_BUTTON
                     )
                 await message.delete()
         except Exception as error:
             print(error)
-            await message.edit_text("Something wrong. Contact @TheFayas.")
+            await message.edit_text("Something wrong. Contact @Tips_Tik.")
 
 @FayasNoushad.on_message(filters.command(["start"]))
 async def start(bot, update):
