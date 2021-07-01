@@ -31,8 +31,8 @@ Support Channel @Tips_Tik
 """
 ABOUT_TEXT = """
 - **Bot :** `Translator Bot V2`
-- **Creator :** [Fayas](https://telegram.me/Muhammedgalib)
-- **Channel :** [Fayas Noushad](https://telegram.me/Tips_Tik)
+- **Creator :** [Galib](https://telegram.me/Muhammedgalib)
+- **Channel :** [Tips Tik](https://telegram.me/Tips_Tik)
 - **Source :** [Click here](https://github.com/eo792/TranslatorBot)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
