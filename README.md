@@ -19,7 +19,7 @@ License -> https://github.com/FayasNoushad/Translator-Bot-V2/blob/main/LICENSE
   <summary><b>Deploy on Heroku</b></summary>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/eo792/TranslatorBot/tree/main">
+  <a href="https://heroku.com/deploy?template=https://github.com/Galib792/TranslatorBot/tree/main">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
