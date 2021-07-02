@@ -21,6 +21,7 @@ Hello {}, I am a google translator telegram bot.
 
 Made by @Muhammedgalib
 Support Channel @Tips_Tik
+Support Group @Tips_Tik_discussion
 """
 HELP_TEXT = """
 - Just send a text with language code
@@ -28,12 +29,13 @@ HELP_TEXT = """
 
 Made by @Muhammedgalib
 Support Channel @Tips_Tik
+Support Group @Tips_Tik_discussion
 """
 ABOUT_TEXT = """
 - **Bot :** `Translator Bot V2`
 - **Creator :** [Galib](https://telegram.me/Muhammedgalib)
 - **Channel :** [Tips Tik](https://telegram.me/Tips_Tik)
-- **Source :** [Click here](https://github.com/eo792/TranslatorBot)
+- **Youtube :** [Channel](https://www.youtube.com/c/TipsTik)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
