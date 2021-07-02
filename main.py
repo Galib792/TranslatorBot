@@ -35,7 +35,7 @@ ABOUT_TEXT = """
 - **Bot :** `Translator Bot V2`
 - **Creator :** [Galib](https://telegram.me/Muhammedgalib)
 - **Channel :** [Tips Tik](https://telegram.me/Tips_Tik)
-- **Youtube :** [Channel](https://www.youtube.com/c/TipsTik)
+- **Youtube :** [Youtube Channel](https://www.youtube.com/c/TipsTik)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
