@@ -1,7 +1,7 @@
 {
     "name": "Translator-Bot",
     "description": "A simple google translator telegram bot",
-    "repository": "https://github.com/eo792/TranslatorBot",
+    "repository": "https://github.com/Galib792/TranslatorBot",
     "keywords": [
         "telegram",
         "pyrogram",
